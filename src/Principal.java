@@ -13,7 +13,7 @@ public class Principal {
                 opcion = lectura.nextInt();
             } catch (Exception e) {
                 System.out.println("Error: Ingrese solo números.");
-                lectura.next(); // Limpiar buffer
+                lectura.next(); 
                 continue;
             }
 
@@ -37,8 +37,6 @@ public class Principal {
                     continue;
             }
 
-            // --- ESTE ES EL CAMBIO ---
-            // Ahora llamamos al metodo que cumple con la Tarjeta 9
             realizarConversion(lectura, consulta, base, target);
         }
     }
@@ -59,7 +57,6 @@ public class Principal {
         }
     }
 
-    // También separamos el menú para que main sea más legible
     public static void mostrarMenu() {
         System.out.println("\n*************************************************");
         System.out.println("Sea bienvenido/a al Conversor de Moneda =]");
@@ -75,3 +72,4 @@ public class Principal {
         System.out.println("*************************************************");
     }
 }
+
