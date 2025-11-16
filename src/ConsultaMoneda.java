@@ -5,7 +5,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConsultaMoneda {
-    // Cambiamos el tipo de retorno: antes era String, ahora es 'Moneda'
+    
     public Moneda buscarMoneda(String monedaBase, String monedaTarget) {
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/3836b70e59529b49ee91a3ff/pair/" + monedaBase + "/" + monedaTarget);
 
@@ -27,3 +27,4 @@ public class ConsultaMoneda {
         }
     }
 }
+
