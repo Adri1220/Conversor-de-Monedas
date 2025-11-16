@@ -33,7 +33,8 @@ Consiste en un sistema de conversión de monedas que interactúa directamente co
 
 ## 📸 Capturas de Pantalla
 
-![Menú Principal](https://github.com/user-attachments/assets/placeholder-menu)
+<img src="Captura de pantalla 2025-11-15 211655.png" alt="Menú Principal" width="600" />
+
 *Menú de opciones del conversor*
 
 ## 🚀 Cómo ejecutar el proyecto
